@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "129691546599",
+    "firebase_url": "https://comvus-5fbbf-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "comvus-5fbbf",
+    "storage_bucket": "comvus-5fbbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129691546599:android:141fa39e19caa491a9c342",
+        "android_client_info": {
+          "package_name": "com.example.comvus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129691546599-380i7ba1rsqb17di6m06ffjkf0tn5nb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmIFAXjihW2kb6cUPM8WYim7VoyxQMnHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129691546599-380i7ba1rsqb17di6m06ffjkf0tn5nb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129691546599:android:a01aa91d301a9953a9c342",
+        "android_client_info": {
+          "package_name": "com.example.mytest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129691546599-380i7ba1rsqb17di6m06ffjkf0tn5nb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmIFAXjihW2kb6cUPM8WYim7VoyxQMnHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129691546599-380i7ba1rsqb17di6m06ffjkf0tn5nb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

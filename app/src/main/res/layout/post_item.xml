@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="402dp"
+        android:layout_height="120dp"
+        android:background="@color/DarkKhaki" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/profile_image"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_image"
+        android:layout_marginLeft="5dp"
+        android:text="Username"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        android:id="@+id/post_message"
+        android:layout_toRightOf="@+id/profile_image"
+        android:layout_toEndOf="@id/profile_image"
+        android:layout_marginLeft="25dp"
+
+        android:textSize="18sp"/>
+
+    <ImageButton
+        android:id="@+id/downvote"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/username"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/downvote" />
+
+    <ImageButton
+        android:id="@+id/upvote"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/username"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/upvote" />
+
+    <TextView
+        android:id="@+id/vote_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="15dp"
+        android:text="0"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/comment"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_below="@+id/username"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="15dp"
+        android:text="View Comment"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>
